@@ -66,4 +66,7 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
+  theme: {
+    colorScheme: 'auto', // "auto" | "dark" | "light"
+  },
 });
